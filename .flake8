@@ -1,0 +1,26 @@
+[flake8]
+ignore =
+  # Ignore all warnings
+  W,
+  # Ignore all indentation rules
+  E1,
+  # Ignore all whitespace rules
+  E2,
+  # Ignore all blank line rules
+  E3,
+  # Ignore all import rules
+  E4,
+  # Ignore backslash style rule
+  E502,
+  # Ignore oneline statement rules
+  E70,
+
+
+exclude =
+    # No need to traverse our git directory
+    .git,
+    # There's no value in checking cache directories
+    __pycache__
+
+max-line-length = 200
+max-complexity = 10
