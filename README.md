@@ -104,7 +104,7 @@ Namespaces are one honking great idea -- let's do more of those!
 #### 5. Mini Test
 Trainerから抜き打ちで小テストが出されることがある。
 小テストはIssueとして出題され、PRとして回答する。
-小テストが **Open** (= 未回答、不正解、etc)であるかぎり、他のIssueには取り掛からないこと。
+小テストが **Open** (= 未回答、不正解、etc)であるかぎり、他のIssueには取り掛からないこと。
 
 ## Misc.
 ### Trainer
