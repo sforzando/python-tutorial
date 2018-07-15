@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
-import Human
+from Human import Human
 
 class Student(Human):
-    set([5,6,7,8,9])
-    
+    def __init__(self, number):
+        self.number = number
+
+    def get_number(self):
+        return self.number
+
+    def set_number(self, number):
+        self.number = number

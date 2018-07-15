@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-import Student
-import Teacher
-import Human
+
+from Teacher import Teacher
+from Student import Student
 
 class Main():
     def __init__(self):
-        self.t = Teacher.Teacher(3)
-        self.s = Student.Student(5)
+        self.t = Teacher(3)
+        self.s = Student(5)
 
-    def get():
-        print(t.get())
-        print(s.get())
+    def 出席を取ります(self):
+        print('Teacher: {}'.format(self.t.get_number()))
+        print('Student: {}'.format(self.s.get_number()))
 
-    def set():
-        s.set(9)
+    def 番号を変えます(self):
+        self.s.set_number(9)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main = Main()
-    main.get()
-    main.set()
-    main.get()
+    main.出席を取ります()
+    main.番号を変えます()
+    main.出席を取ります()
