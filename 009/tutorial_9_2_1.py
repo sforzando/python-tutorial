@@ -3,6 +3,7 @@
 def scope_test():
     def do_local():
         spam = "local spam"
+        print(spam)
 
     def do_nonlocal():
         nonlocal spam
