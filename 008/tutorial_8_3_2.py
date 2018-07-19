@@ -2,15 +2,6 @@
 
 import sys
 
-class B(Exception):
-    pass
-
-class C(B):
-    pass
-
-class D(C):
-    pass
-
 for arg in sys.argv[1:]:
     try:
         f = open(arg, 'r')
