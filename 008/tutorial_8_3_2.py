@@ -10,4 +10,3 @@ for arg in sys.argv[1:]:
     else:
         print(arg, 'has', len(f.readlines()), 'lines')
         f.close()
-        
