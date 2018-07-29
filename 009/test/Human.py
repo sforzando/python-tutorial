@@ -2,10 +2,10 @@
 
 class Human(object):
     def __init__(self, number):
-        self.number = number
+        self.__number = number
 
     def get_number(self):
-        return self.number
+        return self.__number
 
     def set_number(self, number):
         self.number = number
