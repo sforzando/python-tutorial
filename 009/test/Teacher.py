@@ -4,4 +4,3 @@ from Human import Human
 
 class Teacher(Human):
     pass
-    
