@@ -14,8 +14,8 @@ class Main():
         print('Student: {}'.format(self.s.get_number()))
 
     def set_student_number(self):
-        # self.t.number = 2
-        self.s.set_number(9)
+        self.t.number = 2
+        # self.s.set_number(9)
 
 if __name__ == '__main__':
     main = Main()

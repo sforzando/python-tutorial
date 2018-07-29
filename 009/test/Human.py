@@ -8,4 +8,4 @@ class Human(object):
         return self.__number
 
     def set_number(self, number):
-        self.number = number
+        self.__number = number
