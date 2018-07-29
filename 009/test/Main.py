@@ -9,7 +9,6 @@ class Main():
         self.t = Teacher(3)
         self.s = Student(5)
         self.sm = SuperMan(7)
-        super(Main, self).__init__()
         
 
     def get_number(self):
