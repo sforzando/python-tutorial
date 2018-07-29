@@ -8,15 +8,15 @@ class Main():
         self.t = Teacher(3)
         self.s = Student(5)
 
-    def 出席を取ります(self):
+    def get_number(self):
         print('Teacher: {}'.format(self.t.get_number()))
         print('Student: {}'.format(self.s.get_number()))
 
-    def 番号を変えます(self):
+    def set_student_number(self):
         self.s.set_number(9)
 
 if __name__ == '__main__':
     main = Main()
-    main.出席を取ります()
-    main.番号を変えます()
-    main.出席を取ります()
+    main.get_number()
+    main.set_student_number()
+    main.get_number()
